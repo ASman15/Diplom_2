@@ -6,9 +6,9 @@ import org.junit.Test;
 import static org.hamcrest.Matchers.is;
 
 public class CreateNewUserTest {
-    String email = RandomStringUtils.randomAlphabetic(5) + "@" + RandomStringUtils.randomAlphabetic(5) + ".ru";
-    String password = RandomStringUtils.randomAlphanumeric(8);
-    String name = RandomStringUtils.randomAlphabetic(5);
+    String email = RandomStringUtils.randomAlphabetic(1) + "@" + RandomStringUtils.randomAlphabetic(1) + ".ru";
+    String password = RandomStringUtils.randomAlphanumeric(6);
+    String name = RandomStringUtils.randomAlphabetic(1);
     private final UserSteps createNewUser = new UserSteps();
 
     @Before

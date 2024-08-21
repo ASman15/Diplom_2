@@ -8,9 +8,9 @@ import java.util.Arrays;
 import static org.hamcrest.Matchers.is;
 
 public class NewOrderTest {
-    String email = RandomStringUtils.randomAlphabetic(5) + "@" + RandomStringUtils.randomAlphabetic(5) + ".ru";
-    String password = RandomStringUtils.randomAlphanumeric(8);
-    String name = RandomStringUtils.randomAlphabetic(5);
+    String email = RandomStringUtils.randomAlphabetic(1) + "@" + RandomStringUtils.randomAlphabetic(1) + ".ru";
+    String password = RandomStringUtils.randomAlphanumeric(6);
+    String name = RandomStringUtils.randomAlphabetic(1);
     IngredientsList ingredients = new IngredientsList("ingredients", Arrays.asList("61c0c5a71d1f82001bdaaa6d", "61c0c5a71d1f82001bdaaa6f"));
     private final UserSteps createNewUser = new UserSteps();
     private final OrderSteps createNewOrder = new OrderSteps();
